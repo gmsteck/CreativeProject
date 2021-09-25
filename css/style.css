@@ -61,9 +61,60 @@
   margin-top: 40px;
 }
 
+
+label.filebutton {
+  width:120px;
+  height:40px;
+  text-align: center;
+  overflow:hidden;
+  position:relative;
+  background-color: black;
+  color: white;
+}
+
+.upload{
+  width:120px;
+  height:40px;
+  display: flex;
+  text-align: center;
+  overflow:hidden;
+  position:relative;
+  background-color: black;
+  color: white;
+}
+
+
+label span input {
+  z-index: 999;
+  line-height: 0;
+  font-size: 50px;
+  opacity: 0;
+  margin: 0;
+  padding:0;
+}
+
+textarea{
+  justify-content: space-between;
+  align-items: center;
+  background-color: black !important;
+  outline: none;
+  color: #fff !important;
+  resize: none;
+  font-weight: bold;
+}
+
 .info{
   width: 100%;
   height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.following{
+  width: 100%;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
